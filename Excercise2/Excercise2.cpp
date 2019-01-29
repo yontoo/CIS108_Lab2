@@ -25,20 +25,22 @@ int main()
 
 	int book_age = current_year - publish_year;
 
-	if (book_age < 10)
+	if (book_age < 10) {
 		cout << "This book is younger than 10 years old!" << endl;
-	else
+	}
+	else {
 		cout << "This book is at least 10 years old!" << endl;
+	}
 
-	if (page_numbers < 100)
+	if (page_numbers < 100) {
 		cout << "This book is a short book." << endl;
-	else if (page_numbers >= 100 && page_numbers <= 300)
+	}
+	else if (page_numbers >= 100 && page_numbers <= 300) {
 		cout << "This book is an average book." << endl;
-	else
+	}
+	else {
 		cout << "This book is a long book.";
-
-
-
+	}
 
 	return 0;
 }
